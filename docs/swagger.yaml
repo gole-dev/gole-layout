@@ -1,0 +1,20 @@
+basePath: /v1
+host: localhost:8080
+info:
+  contact: {}
+  description: API Doc of Project
+  license: {}
+  title: API Doc
+  version: "1.0"
+paths:
+  /ping:
+    get:
+      consumes:
+      - application/json
+      description: ping
+      produces:
+      - application/json
+      summary: ping
+      tags:
+      - system
+swagger: "2.0"

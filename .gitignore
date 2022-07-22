@@ -1,0 +1,8 @@
+*.test
+*.out
+.idea
+.DS_Store
+vendor/
+log/
+config/*
+!config/sample
